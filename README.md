@@ -2,7 +2,7 @@
 
 AI-powered UPI transaction anomaly and fraud detection platform.
 
-The repository contains the orchestration entry point, MLflow experiment logging helper, location utilities, and package setup script supplied for the project. The full runtime imports the phase modules described by `setup_structure.py`.
+The repository contains the orchestration entry point, MLflow experiment logging helper, location utilities, and package setup script supplied for the project. The full runtime imports the phase modules and coordinates data processing, feature engineering, model training, graph analysis, and anomaly detection.
 
 ## Quick start
 
