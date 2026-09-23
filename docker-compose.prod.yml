@@ -1,0 +1,29 @@
+services:
+  api:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      LLM_PROVIDER: ${LLM_PROVIDER:-demo}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o-mini}
+      CORS_ORIGINS: http://localhost,http://127.0.0.1
+      DATABASE_URL: sqlite:////data/healthcare.db
+    volumes:
+      - healthcare_data:/data
+    restart: unless-stopped
+
+  web:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.prod
+    ports:
+      - "80:80"
+    environment:
+      API_UPSTREAM: http://api:8000
+    depends_on:
+      - api
+    restart: unless-stopped
+
+volumes:
+  healthcare_data:

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kb-diabetes-diet",
+    "topics": ["diabetes", "blood sugar", "glucose", "diet", "nutrition"],
+    "title": "Diabetes-friendly nutrition",
+    "content": "Focus on high-fiber vegetables, lean proteins, and whole grains. Limit refined sugars and monitor carbohydrate portions. Pair meals with regular activity and follow your clinician's A1C targets."
+  },
+  {
+    "id": "kb-hypertension-lifestyle",
+    "topics": ["hypertension", "high blood pressure", "bp", "sodium", "salt"],
+    "title": "Blood pressure lifestyle support",
+    "content": "Reduce sodium intake, maintain healthy weight, limit alcohol, manage stress, and take prescribed medications consistently. Home BP monitoring helps track trends between visits."
+  },
+  {
+    "id": "kb-asthma-triggers",
+    "topics": ["asthma", "wheezing", "inhaler", "breathing"],
+    "title": "Asthma trigger awareness",
+    "content": "Common triggers include allergens, cold air, smoke, and respiratory infections. Use controller medications as prescribed and keep a rescue inhaler accessible. Seek urgent care for severe shortness of breath."
+  },
+  {
+    "id": "kb-medication-adherence",
+    "topics": ["medication", "adherence", "pill", "dose", "reminder"],
+    "title": "Medication adherence",
+    "content": "Take medications at the same time daily, use pill organizers or app reminders, and never stop prescriptions without consulting your clinician. Report side effects promptly."
+  },
+  {
+    "id": "kb-allergy-safety",
+    "topics": ["allergy", "allergic", "anaphylaxis", "epinephrine"],
+    "title": "Allergy safety",
+    "content": "Avoid known allergens, read food and drug labels carefully, and carry epinephrine auto-injectors if prescribed. Anaphylaxis requires immediate emergency care (call local emergency number)."
+  },
+  {
+    "id": "kb-mental-wellness",
+    "topics": ["stress", "anxiety", "depression", "sleep", "mental health"],
+    "title": "Mental wellness basics",
+    "content": "Prioritize sleep hygiene, physical activity, social connection, and mindfulness. Persistent mood changes warrant professional evaluation. Crisis lines are available in many regions."
+  },
+  {
+    "id": "kb-exercise-general",
+    "topics": ["exercise", "fitness", "activity", "walking", "workout"],
+    "title": "Safe physical activity",
+    "content": "Aim for 150 minutes of moderate aerobic activity weekly plus strength training twice per week when cleared by your clinician. Start gradually if you have chronic conditions."
+  },
+  {
+    "id": "kb-preventive-screening",
+    "topics": ["screening", "checkup", "prevention", "vaccine", "immunization"],
+    "title": "Preventive care",
+    "content": "Stay current with age-appropriate screenings, vaccinations, and annual wellness visits. Personalized schedules depend on age, sex, family history, and existing conditions."
+  }
+]
